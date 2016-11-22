@@ -58,7 +58,7 @@ function acui_import_users( $file, $form_data, $attach_id = 0, $is_cron = false 
 				$approve_users_new_user_appove = $form_data["approve_users_new_user_appove"];
 	
 			echo "<h3>" . __('Ready to registers','import-users-from-csv-with-meta') . "</h3>";
-			echo "<p>" . __('First row represents the form of sheet','import-users-from-csv-with-meta') . "</p>";
+			echo "<p>" . __('SUCCEVO','import-users-from-csv-with-meta') . "</p>";
 			$row = 0;
 			$positions = array();
 
